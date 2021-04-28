@@ -24,29 +24,29 @@ namespace TrelloTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CreateCard recording.
+    ///The ArchiveCard recording.
     /// </summary>
-    [TestModule("3f14f186-9789-44fd-98ee-420a6b6e3b8c", ModuleType.Recording, 1)]
-    public partial class CreateCard : ITestModule
+    [TestModule("bb4ae740-ad43-4017-a9ac-092cbbef89dc", ModuleType.Recording, 1)]
+    public partial class ArchiveCard : ITestModule
     {
         /// <summary>
         /// Holds an instance of the TrelloTestRepository repository.
         /// </summary>
         public static TrelloTestRepository repo = TrelloTestRepository.Instance;
 
-        static CreateCard instance = new CreateCard();
+        static ArchiveCard instance = new ArchiveCard();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CreateCard()
+        public ArchiveCard()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CreateCard Instance
+        public static ArchiveCard Instance
         {
             get { return instance; }
         }
@@ -79,16 +79,24 @@ namespace TrelloTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test Ranorex Card' with focus on 'ApplicationUnderTest.BoardWrapperIsShowMenu.EnterATitleForThisCard'.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.EnterATitleForThisCardInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.BoardWrapperIsShowMenu.EnterATitleForThisCard.PressKeys("Test Ranorex Card");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard' at 148;11.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCardInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard.Click("148;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BoardWrapperIsShowMenu.Submit' at Center.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.SubmitInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.BoardWrapperIsShowMenu.Submit.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Archive' at 33;12.", repo.ApplicationUnderTest.ArchiveInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Archive.Click("33;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard'.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCardInfo, new RecordItemIndex(2));
-            Validate.Exists(repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCardInfo);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Delete' at 33;2.", repo.ApplicationUnderTest.DeleteInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Delete.Click("33;2");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at 102;12.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Submit.Click("102;12");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard'.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCardInfo, new RecordItemIndex(4));
+            Validate.NotExists(repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCardInfo);
             Delay.Milliseconds(100);
             
         }

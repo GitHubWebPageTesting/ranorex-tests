@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace TrelloTest
 {
-    public partial class MoveCardToDoneAndArchive
+    public partial class ArchiveCard
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

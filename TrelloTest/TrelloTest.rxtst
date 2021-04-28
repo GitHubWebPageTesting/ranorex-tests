@@ -2,12 +2,6 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
-			<testmodule
-			id="039cccc1-3643-4760-a874-ae7811779782"
-			name="MoveCardToDoneAndArchive"
-			ref="bb4ae740-ad43-4017-a9ac-092cbbef89dc"
-			type="Recording">
-			</testmodule>
 			<teardown
 			id="04b31d95-b93f-4243-8c0c-58bc2a3cdc15"
 			name="teardown">
@@ -55,55 +49,17 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="33beb474-e48f-4d38-b072-9a9a500675c6"
-			name="Login"
-			ref="1f2b5175-d942-4d22-bc53-8a6e777c006b"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="345c2594-0a74-49d2-809e-796ce631ee3b"
 			name="OpenBrowser"
 			ref="dfedad15-2a1e-4d45-9059-1197662c32ed"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="37b43687-6642-4cc9-8d28-dd763b5d6dc0"
-			name="Logout"
-			ref="868af62c-e7f3-4f4b-8e44-8fbc9825a195"
-			type="Recording">
-			</testmodule>
-			<teardown
-			id="3834d6a6-48d8-42bb-8810-dc130be191eb"
-			name="teardown">
-			</teardown>
-			<testmodule
 			id="3e8bcd95-de7d-42a0-8eec-870bb5f59952"
 			name="Login"
 			ref="1f2b5175-d942-4d22-bc53-8a6e777c006b"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="422f0b45-5ed5-4e8e-b69d-a0b9ce8c1cd4"
-			name="RemoveBoard"
-			ref="1501d1c4-0163-4432-8abf-5614449a2de7"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="44467df7-11d7-4d62-84a9-ceafb8c21b7c"
-			name="CreateCard"
-			ref="3f14f186-9789-44fd-98ee-420a6b6e3b8c"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="58241f70-8308-49c1-a006-0098969694fc"
-			name="CloseBrowser"
-			ref="f26ebc42-c131-4dc2-9747-35d1d090a2cf"
-			type="Recording">
-			</testmodule>
-			<setup
-			id="6d43440e-d11e-43fa-9064-5200643fbab0"
-			name="setup">
-			</setup>
 			<testmodule
 			id="7051e8c2-65df-4c32-b23c-d62aa05da4e4"
 			name="AddBoard"
@@ -132,21 +88,9 @@
 			name="Login_Logout">
 			</testcase>
 			<testmodule
-			id="b0dfccf0-ce8d-4e55-a5e9-6866948429be"
-			name="AddBoard"
-			ref="34435cd5-3e25-4205-9ae0-563bd0e5dae4"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="bf0e8230-a39b-4328-b91a-183bf984fff6"
 			name="CloseBrowser"
 			ref="f26ebc42-c131-4dc2-9747-35d1d090a2cf"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="cabfc6da-e2bf-497a-b1d0-75a8fa20a7eb"
-			name="OpenBrowser"
-			ref="dfedad15-2a1e-4d45-9059-1197662c32ed"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -155,10 +99,6 @@
 			ref="1501d1c4-0163-4432-8abf-5614449a2de7"
 			type="Recording">
 			</testmodule>
-			<testcase
-			id="e720e1e4-4fda-4d33-820c-2d17e209decb"
-			name="TestCase">
-			</testcase>
 			<testmodule
 			id="e86f9bb1-3e0c-497d-b5d1-f95dadd0f7bc"
 			name="CloseBrowser"
@@ -247,50 +187,6 @@
 							</testmodule>
 						</teardown>
 					</testcase>
-					<testcase
-					id="e720e1e4-4fda-4d33-820c-2d17e209decb"
-					name="TestCase">
-						<setup
-						id="6d43440e-d11e-43fa-9064-5200643fbab0"
-						name="setup">
-							<testmodule
-							id="cabfc6da-e2bf-497a-b1d0-75a8fa20a7eb"
-							name="OpenBrowser">
-							</testmodule>
-						</setup>
-						<testmodule
-						id="33beb474-e48f-4d38-b072-9a9a500675c6"
-						name="Login">
-						</testmodule>
-						<testmodule
-						id="b0dfccf0-ce8d-4e55-a5e9-6866948429be"
-						name="AddBoard">
-						</testmodule>
-						<testmodule
-						id="44467df7-11d7-4d62-84a9-ceafb8c21b7c"
-						name="CreateCard">
-						</testmodule>
-						<testmodule
-						id="039cccc1-3643-4760-a874-ae7811779782"
-						name="MoveCardToDoneAndArchive">
-						</testmodule>
-						<testmodule
-						id="422f0b45-5ed5-4e8e-b69d-a0b9ce8c1cd4"
-						name="RemoveBoard">
-						</testmodule>
-						<testmodule
-						id="37b43687-6642-4cc9-8d28-dd763b5d6dc0"
-						name="Logout">
-						</testmodule>
-						<teardown
-						id="3834d6a6-48d8-42bb-8810-dc130be191eb"
-						name="teardown">
-							<testmodule
-							id="58241f70-8308-49c1-a006-0098969694fc"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
-					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -309,9 +205,6 @@
 			</testcontainer>
 			<testcontainer
 			id="ae375208-f61f-4d75-a094-f714970b464c">
-			</testcontainer>
-			<testcontainer
-			id="e720e1e4-4fda-4d33-820c-2d17e209decb">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

@@ -185,7 +185,7 @@ h/4F/wChGijRP+QTD/wL/wBCNFAH/9k=
 		<mouseitem
 		action="Click"
 		button="Left"
-		duration="300ms"
+		duration="100ms"
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
@@ -392,6 +392,32 @@ AooooAKSiigBaKKKACiiigAooooAKKKKACiiigAooooAKWiigAooooAKKKKACiiigAooooAKSiig
 ApaKKACiiigApKKKACkoopAFFFFAH//Z
 			</helperscreenshot>
 		</mouseitem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="7e92f17d-9cc2-4f18-81eb-82ef47ae1f8b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2f13cb7d-80d8-40a3-8880-e520420f29c1"
+			sourcename="ElementTree">
+				<path>
+					/dom[@domain='trello.com']//div[#'content']/div//a[@class='list-card js-member-droppable ui-droppable']/div[3]/span[@innertext='Test Ranorex Card']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Test Ranorex Card
+			</matchvalue>
+		</validationitem>
 	</recorditems>
 	<repository
 	id="cfb1f63c-45ef-4194-b5d5-b41a99eede67"

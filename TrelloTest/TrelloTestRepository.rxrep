@@ -153,35 +153,12 @@ name="TrelloTestRepository">
 				<item
 				addcaps="unknown,webelement,spantag"
 				capname="spantag"
-				id="336b4595-16f6-4a40-bdfc-6bd80a567f29"
+				id="2f13cb7d-80d8-40a3-8880-e520420f29c1"
 				name="TestRanorexCard"
-				refimgid="07d61d6b-5ab6-471f-bc07-b7a4adc5361b"
-				refpath="/dom[@domain='trello.com']//div[#'board']/div[1]/div/div[2]/a/div[3]/span[@innertext='Test Ranorex Card']"
+				refimgid="19dec5c9-0e47-4cc8-acf4-0080d59cdfad"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='trello.com']//div[#'content']/div//a[@href&gt;'https://trello.com/c/aRie']/div[3]/span[@innertext='Test Ranorex Card']
-				</item>
-				<item
-				addcaps="unknown,webelement,spantag"
-				capname="spantag"
-				id="a85dadd0-704e-40f8-8d97-af7e76deca8c"
-				name="TestRanorexCard1"
-				refimgid="a288831f-1c38-432f-907d-7002d4694b11"
-				refpath="/dom[@domain='trello.com']//div[#'board']/div[3]/div/div[2]/a[@href='https://trello.com/c/aRieakkq/1-test-ranorex-card']/div[3]/span[@innertext='Test Ranorex Card']"
-				robustPath=""
-				searchtimeout="30000ms">
-					/dom[@domain='trello.com']//div[#'content']/div/div[3]//a/div[3]/span[@innertext='Test Ranorex Card']
-				</item>
-				<item
-				addcaps="unknown,webelement,spantag"
-				capname="spantag"
-				id="6879ea3b-a3a1-497a-a995-2dcb15737012"
-				name="TestRanorexCard2"
-				refimgid="87c94d5f-8b18-44fd-a924-be9ab067c9d2"
-				refpath="/dom[@domain='trello.com']//div[#'board']/div[3]/div/div[2]/a/div[3]/span[@innertext='Test Ranorex Card']"
-				robustPath=""
-				searchtimeout="30000ms">
-					/dom[@domain='trello.com']//div[#'content']/div/div[3]//a/div[3]/span[@innertext='Test Ranorex Card']
+					/dom[@domain='trello.com']//div[#'content']/div//a[@class='list-card js-member-droppable ui-droppable']/div[3]/span[@innertext='Test Ranorex Card']
 				</item>
 				<basepath>
 					/dom[@domain='trello.com']//div[#'content']/div
@@ -266,17 +243,6 @@ name="TrelloTestRepository">
 				/dom[@domain='trello.com']//div[#'board']/div[1]//a[@href&gt;'https://trello.com/b/tN1q']/span[@innertext='Add a card']
 			</item>
 			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="abf848d0-3a47-4517-91de-1ae01af06a10"
-			name="Archive"
-			refimgid="559221ad-4182-4e63-8a84-ca9173c0ecab"
-			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[7]/div/div[2]/a[8]/span[@innertext='Archive']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/dom[@domain='trello.com']//div[#'chrome-container']/div[7]/div/div[2]/a[8]/span[@innertext='Archive']
-			</item>
-			<item
 			addcaps="unknown,webelement,atag"
 			capname="atag"
 			id="e46b284f-76bc-42fc-8050-efd97c040562"
@@ -324,12 +290,34 @@ name="TrelloTestRepository">
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="12cda572-9512-456e-9912-5c4f0200d428"
-			name="Archive1"
+			name="Archive"
 			refimgid="8e730bd8-0978-4ee2-82e4-72b8a58329ed"
 			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/div/div[5]/div[5]/div/a[@title='Archive']/span[@title='Archive']"
 			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/div/div[5]//a[@title='Archive']/span[@title='Archive']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="4e239241-3f79-4fcd-a1a0-7458030504a2"
+			name="Delete"
+			refimgid="b3f91390-cb63-4b3d-85a5-fe707a5f6a04"
+			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/div/div[5]/div[5]/div/a[@title='Delete']/span[@innertext='Delete']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/div/div[5]//a[@title='Delete']/span[@innertext='Delete']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="a25f3064-3488-4cc8-9b06-c0f626594c78"
+			name="HttpsTrelloComCKI0kE0Qj2TestRan"
+			refimgid="c51b6659-a408-48aa-a8d7-4f7d80e967da"
+			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/a[@href>'https://trello.com/c/kI0k']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/a[@href&gt;'https://trello.com/c/kI0k']
 			</item>
 			<basepath>
 				/dom[@domain='trello.com']
