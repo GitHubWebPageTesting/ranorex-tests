@@ -197,117 +197,14 @@ CiiigAooooA//9k=
 			<bindings>
 			</bindings>
 			<info
-			id="6879ea3b-a3a1-497a-a995-2dcb15737012"
+			id="336b4595-16f6-4a40-bdfc-6bd80a567f29"
 			sourcename="Recorder">
-				<element
-				capabilities="webelement, spantag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="False"
-				index="1"
-				prefcap="spantag"
-				rect="876,360,360,30"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						list-card-title js-card-name
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Test Ranorex Card
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						js-card-name list-card-title
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						span
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="dir"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain='trello.com']//div[#'board']/div[3]//a/div[3]/span[@innertext='Test Ranorex Card']
+					/dom[@domain='trello.com']//div[#'content']/div//a[@href&gt;'https://trello.com/c/aRie']/div[3]/span[@innertext='Test Ranorex Card']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
-			<helperscreenshot
-			guid="22184f35-e79b-413f-a139-71c45a3161e2">
-				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
-			</helperscreenshot>
 		</mouseitem>
 		<mouseitem
 		action="Down"
@@ -756,114 +653,14 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
 			<bindings>
 			</bindings>
 			<info
-			id="a85dadd0-704e-40f8-8d97-af7e76deca8c"
+			id="336b4595-16f6-4a40-bdfc-6bd80a567f29"
 			sourcename="ElementTree">
-				<element
-				capabilities="webelement, spantag"
-				dontcache="True"
-				enabled="True"
-				flavor="firefoxweb"
-				hasfocus="False"
-				index="1"
-				prefcap="spantag"
-				rect="876,360,360,30"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						list-card-title js-card-name
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Test Ranorex Card
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						js-card-name list-card-title
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						span
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="dir"
-					readonly="False"
-					type="System.String">
-						auto
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain='trello.com']//div[#'board']/div[3]//a/div[3]/span[@innertext='Test Ranorex Card']
+					/dom[@domain='trello.com']//div[#'content']/div//a[@href&gt;'https://trello.com/c/aRie']/div[3]/span[@innertext='Test Ranorex Card']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
-			<helperscreenshot
-			guid="31c7694b-e313-4cff-aed8-cba08785dbc4">
-				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
-UAFFFFABRRRQAUUUUAf/2Q==
-			</helperscreenshot>
 			<matchname>
 			</matchname>
 			<matchvalue>

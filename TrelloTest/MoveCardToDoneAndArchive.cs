@@ -89,8 +89,8 @@ namespace TrelloTest
             Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard2' at 119;15.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard2Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard2.Click("119;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard' at 119;15.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCardInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard.Click("119;15");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'ApplicationUnderTest.WindowOverlay' at 1907;476.", repo.ApplicationUnderTest.WindowOverlayInfo, new RecordItemIndex(3));
@@ -111,8 +111,8 @@ namespace TrelloTest
             repo.ApplicationUnderTest.WindowOverlay.Click("264;358");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard1'.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard1Info, new RecordItemIndex(7));
-            Validate.NotExists(repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard1Info);
+            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCard'.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCardInfo, new RecordItemIndex(7));
+            Validate.NotExists(repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexCardInfo);
             Delay.Milliseconds(100);
             
         }

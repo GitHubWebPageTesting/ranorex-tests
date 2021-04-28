@@ -18,7 +18,7 @@ name="TrelloTestRepository">
 		id="0d69f230-0088-4d27-bde7-648c3b1ce0bc"
 		isrooted="True"
 		name="ApplicationUnderTest"
-		refimgid="980db6c3-2a8e-4561-8d8e-c09d5d7fe1a9"
+		refimgid="3c5d7ede-832c-4b1c-8c7d-6317216aad9f"
 		searchtimeout="30000ms"
 		usecache="False">
 			<folder
@@ -675,7 +675,7 @@ i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
 		id="d04e7136-b430-4625-a880-270ec4c655a5"
 		isrooted="True"
 		name="TaskSwitching"
-		refimgid="1978b293-96f9-4289-9198-e2d9525628ed"
+		refimgid="7f7f527b-6fd1-4165-9247-5d5857d3fb2f"
 		refpath="/form[@title='Task Switching']"
 		searchtimeout="30000ms"
 		usecache="True">
@@ -689,6 +689,48 @@ MBgMBoN4AINNIhaCiXbwFCYjg5T4UyGqxCN4gEOjt7lDew33JL/lO9/XuxTaeThgIhvLwEEmWktP
 YINp7lNs/37kPAKT+E6Wb7dF3jvpXkN+N9tMdW2Sl4bS97k6dYBejTrAU5U6wGOFQm+xoTV/KoU7
 8g14KFMozAKaE18p3JFvwL1FIekgiXwD7koUzPEtJs9VHegWKeQHXkyeqzpwbVDI9d2YPFd10Q/9
 i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8a01f2cc-f715-4f82-8503-70fd6aa71963"
+		isrooted="True"
+		name="TestRanorexBoardTrelloMozillaFiref"
+		refpath="/form[@title='TestRanorexBoard | Trello — Mozilla Firefox']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="3223fdd0-d5cb-4755-8cbb-74a901156b5b"
+			name="Home"
+			refimgid="409bebe6-1af7-42b6-9350-61c5f792a5bb"
+			refpath="/form[@title>'TestRanorexBoard | Trello']/toolbar[@accessiblename='Navigation']/button[@accessiblename='Home']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'TestRanorexBoard | Trello']/?/?/button[@accessiblename='Home']
+			</item>
+			<basepath>
+				/form[@title&gt;'TestRanorexBoard | Trello']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMfSURBVDhPjVN7SFNhHJ0VQWGGFZoFaiIFWkZt
+4mtrm49N5yyX3hSdZtpLyVpJRg+ykIjsoWYhkRWWQdkLFmkPrIiEGhaVlmk2U8pnDrPwMe/v3L6t
+gf1R4IEDl9/lnO9853evaDJofROxgizax4LATXWMJg/BovUki+Y9WWKHMRCT5Bj/G8IT+TTHox2C
+IHKidoWRulWg/mhQl6pX6JC6Ol5PQDCKZwpnPQ7RRbdjQplYwV8L4Wzz0eeSJfQ2CNS2CvQ18g87
+lM1jZk2a0Ms528U28Ac89VToDip2t1DRctCZ4JI7K9uWPdKaHjfsqEJP9UbwLTJmJAd9VmL0Y1Q7
+dcRUCYIjMXYtNtJeT9BRZnJ2DsYqfAdfbz1trQk3o0bahSdJ9WivNMDaoAA1KUEfonj+k2rI2hYp
+sRtQpn837fIFnV8IuuEFuroAdM0D3eXJuB5pwU15N8yX8kFvw0D1LIWJddKsAt8akSn6Jt48jzgx
+0SZ/0Elv0K1FsNyWoaE8H3UnKlEeP4IK9QCuqF9g8L4aVBcKqmWFNiqBxuj9otYZO4NJw4acGJSx
+FNZzPihNvwxDghl79P04nPwDx2N6cVLyDt8uxIGMgaDqKPAmGfinmgIR58dNHw1SD1MMM0kIhDV3
+GQrXlkGvfY4N3Dvk6lqwT9GEosAH+F6sBF8uZQZh4I2szOo4g72DgcWJb0jKylGxO64OwrOMJKRK
+q5EcXoN0xSMYJPdQp8sFHZSAShgrAzFaGovOIl203cDknnFqOIDFC2V7VsgxrpWiOT4etaps3FVt
+w3sth/E0JtzOrslMrAeUGDAktpzS6TzsBkdc9Uvbnbf8/OWnAy9hDYdGgORsZZFs92qWKjYEpGUf
+VGIwrKkyDK3hRnZLE7R2sQ0FBQVTil0zQz7OzWrq807GcMAajEs04IOYWQhLJQsHzzjEUn73SR+r
+D1ifZ9M45BPIm7de3Oic/crskjXW6a5Hj1cS+rw5dC1MwZfZG9HsktO6w00fL+L++1cKThEL0uZe
+nJMV9dJly37GYhtNs7ILH7rkrMucn+LF8v51skj0G0RG5vs0CNw6AAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<basepath>

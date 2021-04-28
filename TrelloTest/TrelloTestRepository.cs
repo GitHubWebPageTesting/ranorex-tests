@@ -34,6 +34,7 @@ namespace TrelloTest
         TrelloTestRepositoryFolders.ExplorerAppFolder _explorer;
         TrelloTestRepositoryFolders.Explorer1AppFolder _explorer1;
         TrelloTestRepositoryFolders.TaskSwitchingAppFolder _taskswitching;
+        TrelloTestRepositoryFolders.TestRanorexBoardTrelloMozillaFirefAppFolder _testranorexboardtrellomozillafiref;
 
         /// <summary>
         /// Gets the singleton class instance representing the TrelloTestRepository element repository.
@@ -57,6 +58,7 @@ namespace TrelloTest
             _explorer = new TrelloTestRepositoryFolders.ExplorerAppFolder(this);
             _explorer1 = new TrelloTestRepositoryFolders.Explorer1AppFolder(this);
             _taskswitching = new TrelloTestRepositoryFolders.TaskSwitchingAppFolder(this);
+            _testranorexboardtrellomozillafiref = new TrelloTestRepositoryFolders.TestRanorexBoardTrelloMozillaFirefAppFolder(this);
         }
 
 #region Variables
@@ -136,6 +138,15 @@ namespace TrelloTest
         public virtual TrelloTestRepositoryFolders.TaskSwitchingAppFolder TaskSwitching
         {
             get { return _taskswitching; }
+        }
+
+        /// <summary>
+        /// The TestRanorexBoardTrelloMozillaFiref folder.
+        /// </summary>
+        [RepositoryFolder("8a01f2cc-f715-4f82-8503-70fd6aa71963")]
+        public virtual TrelloTestRepositoryFolders.TestRanorexBoardTrelloMozillaFirefAppFolder TestRanorexBoardTrelloMozillaFiref
+        {
+            get { return _testranorexboardtrellomozillafiref; }
         }
     }
 
@@ -1537,6 +1548,72 @@ namespace TrelloTest
                 get
                 {
                     return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The TestRanorexBoardTrelloMozillaFirefAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("8a01f2cc-f715-4f82-8503-70fd6aa71963")]
+        public partial class TestRanorexBoardTrelloMozillaFirefAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _homeInfo;
+
+            /// <summary>
+            /// Creates a new TestRanorexBoardTrelloMozillaFiref  folder.
+            /// </summary>
+            public TestRanorexBoardTrelloMozillaFirefAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("TestRanorexBoardTrelloMozillaFiref", "/form[@title>'TestRanorexBoard | Trello']", parentFolder, 30000, null, true, "8a01f2cc-f715-4f82-8503-70fd6aa71963", "")
+            {
+                _homeInfo = new RepoItemInfo(this, "Home", "?/?/button[@accessiblename='Home']", "", 30000, null, "3223fdd0-d5cb-4755-8cbb-74a901156b5b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("8a01f2cc-f715-4f82-8503-70fd6aa71963")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("8a01f2cc-f715-4f82-8503-70fd6aa71963")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Home item.
+            /// </summary>
+            [RepositoryItem("3223fdd0-d5cb-4755-8cbb-74a901156b5b")]
+            public virtual Ranorex.Button Home
+            {
+                get
+                {
+                    return _homeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Home item info.
+            /// </summary>
+            [RepositoryItemInfo("3223fdd0-d5cb-4755-8cbb-74a901156b5b")]
+            public virtual RepoItemInfo HomeInfo
+            {
+                get
+                {
+                    return _homeInfo;
                 }
             }
         }
