@@ -1,0 +1,699 @@
+﻿<repository
+id="cfb1f63c-45ef-4194-b5d5-b41a99eede67"
+name="TrelloTestRepository">
+	<codegen
+	classname="TrelloTestRepository"
+	namespace="TrelloTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="ba6f2009-d8d0-4c76-a02c-bdf2a68639ab"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0d69f230-0088-4d27-bde7-648c3b1ce0bc"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="980db6c3-2a8e-4561-8d8e-c09d5d7fe1a9"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="5f2bddd6-025e-4cba-b74a-db392469ed2f"
+			isrooted="True"
+			name="BoardWrapperIsShowMenu"
+			refpath="/dom[@domain='trello.com']//div[#'content']/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="4186e6bc-88f5-475a-9113-943208d08ca6"
+				name="TestRanorexBoard"
+				refimgid="335c542b-eab4-4e2f-a876-e49c59ae359b"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div[1]/div[1]/div[2]/h1[@innertext='TestRanorexBoard']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[1]/div[1]/div[2]/h1[@innertext='TestRanorexBoard']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="352877dd-9587-4e46-bea0-30fa0ac28ac0"
+				name="ShowMenu"
+				refimgid="ef818f33-7a7e-46da-a876-5385da746e97"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div[1]/div[1]/div[5]/a[4]/span[@innertext='Show menu']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[1]/div[1]/div[5]/a[4]/span[@innertext='Show menu']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="2b5f80ed-856e-4bb0-b138-a2db67d0dd55"
+				name="CreateNewBoard"
+				refimgid="4f37fa9f-5824-411a-b256-fb621c4ad713"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[3]/ul/li/div/p/span[@innertext='Create new board']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[3]/ul//span[@innertext='Create new board']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="fa4f0242-7ec9-4dc1-a4c3-60c176577c06"
+				name="BoardMenuContentJsBoardMenuContent"
+				refimgid="f84feb6e-5ae7-498a-bbd0-3f2bf867cc77"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div[2]"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="f6737c3c-d584-4905-aecd-c1a69c3c0da4"
+				name="ATagMore"
+				refimgid="5dcbebba-3f89-4249-bf85-81b80eb02794"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div[2]/div/ul[1]/li[5]/a[@innertext=' More']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div[2]/div/ul[1]/li[5]/a[@innertext=' More']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="81f3d12f-4f4e-40f9-bfd7-4802a2bdd3a1"
+				name="ATagCloseBoard"
+				refimgid="669d22bd-29dc-4e0b-9b31-eb01d333f040"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div[2]/div/ul[3]/li/a[@innertext=' Close board…']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div[2]/div/ul[3]/?/?/a[@innertext=' Close board…']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="489b4652-c8d5-4e11-a8f3-bb2d3cbb1adf"
+				name="PermanentlyDeleteBoard"
+				refimgid="442bb7f8-f66b-4510-85b7-91dcee3f3fe3"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div/div/p[2]/a[@innertext='Permanently delete board…']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div/div/p[2]/a[@innertext='Permanently delete board…']
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="6f8d9b22-6897-43aa-895d-3bbaf4f72776"
+				name="BoardNotFound"
+				refimgid="1293fac1-a844-48fc-b66c-4cc9bfa0c686"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div/h1[@innertext='Board not found.']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div//h1[@innertext='Board not found.']
+				</item>
+				<item
+				addcaps="unknown,webelement,textareatag"
+				capname="textareatag"
+				id="216bb8b2-5913-4b36-803c-4b22c4da2e45"
+				name="EnterATitleForThisCard"
+				refimgid="4833cd26-f883-41d6-b4a7-3e21592d96b7"
+				refpath="/dom[@domain='trello.com']//div[#'board']/div[1]/div/div[2]/div/div[1]/div/textarea[@placeholder='Enter a title for this card…']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div//textarea[@placeholder='Enter a title for this card…']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="3083cca0-16d7-4a64-a477-56490cf91dd6"
+				name="Submit"
+				refimgid="b0bd31d7-8c67-42ee-8d75-91d172a9116c"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div/div[3]/div[@id='board']/div[1]/div/div[2]//input[@value='Add card']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="e793bbaa-3688-4dff-9eea-a6a25101585c"
+				name="IconEditIconSmJsCardMenuListCard"
+				refimgid="0cbf5f92-0869-4ecb-97e1-69707dabd40c"
+				refpath="/dom[@domain='trello.com']//div[#'board']/div[3]/div/div[2]/a/span"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[3]//a/span
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="336b4595-16f6-4a40-bdfc-6bd80a567f29"
+				name="TestRanorexCard"
+				refimgid="07d61d6b-5ab6-471f-bc07-b7a4adc5361b"
+				refpath="/dom[@domain='trello.com']//div[#'board']/div[1]/div/div[2]/a/div[3]/span[@innertext='Test Ranorex Card']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div//a[@href&gt;'https://trello.com/c/aRie']/div[3]/span[@innertext='Test Ranorex Card']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a85dadd0-704e-40f8-8d97-af7e76deca8c"
+				name="TestRanorexCard1"
+				refimgid="a288831f-1c38-432f-907d-7002d4694b11"
+				refpath="/dom[@domain='trello.com']//div[#'board']/div[3]/div/div[2]/a[@href='https://trello.com/c/aRieakkq/1-test-ranorex-card']/div[3]/span[@innertext='Test Ranorex Card']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[3]//a/div[3]/span[@innertext='Test Ranorex Card']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="6879ea3b-a3a1-497a-a995-2dcb15737012"
+				name="TestRanorexCard2"
+				refimgid="87c94d5f-8b18-44fd-a924-be9ab067c9d2"
+				refpath="/dom[@domain='trello.com']//div[#'board']/div[3]/div/div[2]/a/div[3]/span[@innertext='Test Ranorex Card']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[3]//a/div[3]/span[@innertext='Test Ranorex Card']
+				</item>
+				<basepath>
+					/dom[@domain='trello.com']//div[#'content']/div
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9f0e7fdb-6755-487d-9b8f-217f2a7700f6"
+			isrooted="True"
+			name="LayerManagerOverlay"
+			refpath="/dom[@domain='trello.com']//div[#'layer-manager-overlay']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="8e44165e-3a26-47d6-b4df-dcfe2a0de8f3"
+				name="BrownAndGreenMountainUnderWhiteSky"
+				refimgid="6ea5e6de-23f2-4e0f-9587-d1e73f606d67"
+				refpath="/dom[@domain='trello.com']//div[#'layer-manager-overlay']/div/div/div[1]/ul/li[4]/button[@title>'brown and green mountain under']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'layer-manager-overlay']//ul/li[4]/button[@title&gt;'brown and green mountain under']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="e8c4cd7a-b8b1-4e3d-8cd4-7e739f5492df"
+				name="Text"
+				refimgid="0ab9caee-1220-4435-a4e7-37c6466b8582"
+				refpath="/dom[@domain='trello.com']//div[#'layer-manager-overlay']/div/div/div[1]/div/input[@type='text']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'layer-manager-overlay']/div/div/div[1]/?/?/input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="89b927ca-83f4-4e5b-b56a-757fe6ef0cc0"
+				name="CreateBoard"
+				refimgid="3b36a814-b21f-45ba-8add-9e19cda7604c"
+				refpath="/dom[@domain='trello.com']//div[#'layer-manager-overlay']/div/div/div[2]/div/button[@innertext='Create board']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'layer-manager-overlay']/div/div/div[2]/?/?/button[@innertext='Create board']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="9d6abcda-2496-44d5-8340-c44399cccc10"
+				name="Blue"
+				refimgid="319a09ce-dd95-46ce-bb72-6a300bcbbe20"
+				refpath="/dom[@domain='trello.com']//div[#'layer-manager-overlay']/div/div/div[1]/ul/li[5]/button[@title='blue']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'layer-manager-overlay']//ul/li[5]/button[@title='blue']
+				</item>
+				<basepath>
+					/dom[@domain='trello.com']//div[#'layer-manager-overlay']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="032e7a25-d88c-4141-a2f4-fd29e30e5562"
+			name="Submit"
+			refimgid="f4d263ff-418d-40cf-91ad-5085ae649af0"
+			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[4]/div/div[2]/div/div/div/input[@type='submit']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'chrome-container']/div[4]/div/div[2]//input[@type='submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="23f54f8a-d128-4011-89c3-fac71a779094"
+			name="AddACard"
+			refimgid="0a7c2051-f970-4106-a396-b10bf9001de8"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'board']/div[1]//a[@href&gt;'https://trello.com/b/tN1q']/span[@innertext='Add a card']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="abf848d0-3a47-4517-91de-1ae01af06a10"
+			name="Archive"
+			refimgid="559221ad-4182-4e63-8a84-ca9173c0ecab"
+			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[7]/div/div[2]/a[8]/span[@innertext='Archive']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'chrome-container']/div[7]/div/div[2]/a[8]/span[@innertext='Archive']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e46b284f-76bc-42fc-8050-efd97c040562"
+			name="HttpsTrelloComCRCU44b7j3TestRan"
+			refimgid="909d4949-0adb-40f2-a187-42f1e13dcf5c"
+			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/a[@href>'https://trello.com/c/rCU4']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/a[@href&gt;'https://trello.com/c/rCU4']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="7f59948d-ccde-4fc9-b1e6-1585d4df15f4"
+			name="Board"
+			refimgid="7e371c83-bce5-40a3-a9fa-8f23fdf3c04e"
+			refpath="/dom[@domain='trello.com']//div[#'board']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'board']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="1e03d17a-68ba-494d-b5ba-3425fc34bf64"
+			name="AddACard1"
+			refimgid="7286c52c-b115-4616-94f7-0a2e6d8462e6"
+			refpath="/dom[@domain='trello.com']//div[#'board']/div[1]/div/div[3]/a/span[@innertext='Add a card']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'board']/div[1]/div/div[3]/a[@href&gt;'https://trello.com/b/r8Gy']/span[@innertext='Add a card']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="226e158e-57df-4805-8817-cd477a75ae23"
+			name="WindowOverlay"
+			refimgid="d93f033d-335d-49ce-b44d-5bf28263df47"
+			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[3]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'chrome-container']/div[3]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="12cda572-9512-456e-9912-5c4f0200d428"
+			name="Archive1"
+			refimgid="8e730bd8-0978-4ee2-82e4-72b8a58329ed"
+			refpath="/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/div/div[5]/div[5]/div/a[@title='Archive']/span[@title='Archive']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'chrome-container']/div[3]/div/div/div/div[5]//a[@title='Archive']/span[@title='Archive']
+			</item>
+			<basepath>
+				/dom[@domain='trello.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="c8c57785-d070-4d3c-9b55-496fe75e4e67"
+		isrooted="True"
+		name="Trello"
+		refimgid="8d93e428-d532-402e-bc93-36b8fbf6ec20"
+		refpath="/dom[@domain='trello.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="bc11b328-c8f4-4612-a53a-bcee790d799a"
+			name="LogIn"
+			refimgid="531e739a-8647-4c18-9c67-75c0c14c1a2f"
+			refpath="/dom[@domain='trello.com']/body/header/nav/div/a[@innertext='Log in']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']/?/?/header/nav/?/?/a[@innertext='Log in']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3e0b7d51-5904-4744-aadf-4f10c91ae5a8"
+			name="Login1"
+			refimgid="3603af78-7d0f-452d-a409-5e4b252cfb97"
+			refpath="/dom[@domain='trello.com']//input[#'login']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//input[#'login']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="369cca49-e211-4d9c-b857-8df09e002d65"
+			name="TrelloWorkspace"
+			refimgid="a5dccbd2-4eca-4b08-9e68-1fcfc32319ca"
+			refpath="/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div/div/div[1]/nav/div[2]/div/ul/li/a[@href='https://trello.com/userworkspace52378963/home']/span[@innertext='Trello workspace']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div/div/div[1]/nav/div[2]/?/?/ul/?/?/a[@href&gt;'https://trello.com/userwo']/span[@innertext='Trello workspace']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5d0f2b37-3fbe-4dd3-a017-4a614208f911"
+			name="SpanTag24AWINHReYjNBfAYXvcYtXemTcSj"
+			refimgid="8e7bfbaa-082d-4255-99b2-5fd225d6ca2d"
+			refpath="/dom[@domain='trello.com']//div[#'header']/div[2]/button[@title='Jasmin H. (jasminh14)']/div/span"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//div[#'header']/?/?/button[@title='Jasmin H. (jasminh14)']/?/?/span
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="695da4f2-6556-440a-b88a-df506b4c7c58"
+			name="LogOut"
+			refimgid="9465105e-e3a6-4517-b8f7-c30e7efaccd6"
+			refpath="/dom[@domain='trello.com']/body/div[4]/div/section/div/nav/ul/li[8]/button/span[@innertext='Log out']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//section/?/?/nav/ul/li[8]/?/?/span[@innertext='Log out']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="9747ad67-9618-41ea-978d-38f196e2492d"
+			name="PTagYoureAllLoggedOutSoNowWhat"
+			refimgid="d19da884-a730-4371-8958-429ec8962f12"
+			refpath="/dom[@domain='trello.com']/body/div[2]/div/p[@innertext=' You’re all logged out. So now what? ']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']/body/div[2]/?/?/p[@innertext&gt;' You&#8217;re all logged out. So']
+			</item>
+			<item
+			addcaps="unknown,webelement,sectiontag"
+			capname="sectiontag"
+			id="29fb32de-0d98-41fd-8b70-73fef723c413"
+			name="InnerSection"
+			refimgid="f56461dd-e17c-4820-aacf-0e6c75e00bc3"
+			refpath="/dom[@domain='trello.com']/body/div[1]/section"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']/body/div[1]/section
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d09f662f-7b1f-47e9-8ee1-5dda3eed7598"
+			name="User"
+			refimgid="4e4b8fa7-bc37-4729-9ae5-a3b3594c9039"
+			refpath="/dom[@domain='trello.com']//input[#'user']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='trello.com']//input[#'user']
+			</item>
+			<basepath>
+				/dom[@domain='trello.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="35894d13-dc10-42a3-a8c1-2fb4aadb15fe"
+		isrooted="True"
+		name="LogInToContinueLogInWithAtlassi"
+		refimgid="fb3d0cc0-37ab-4f47-9a15-7f08b1f8e724"
+		refpath="/dom[@domain='id.atlassian.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="765ad9b9-ab55-45e1-8359-1ff00ede446e"
+			name="LogOut"
+			refimgid="0c8adf5c-edfb-4cf9-b91a-b0eb806fa665"
+			refpath="/dom[@domain='id.atlassian.com']//button[#'logout-submit']/span/span/span[@innertext='Log out']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='id.atlassian.com']//button[#'logout-submit']//span[@innertext='Log out']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d9e963d2-979d-4060-b6f4-5d18d92b2bac"
+			name="Password"
+			refimgid="d8137a13-633b-427c-80fa-17f90a7d4859"
+			refpath="/dom[@domain='id.atlassian.com']//input[#'password']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='id.atlassian.com']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="9db49805-d5fb-44e0-b0fb-63970e39b24d"
+			name="LogIn"
+			refimgid="b1222bca-05ab-4d48-82ee-841b5410e57b"
+			refpath="/dom[@domain='id.atlassian.com']//button[#'login-submit']/span/span/span[@innertext='Log in']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='id.atlassian.com']//button[#'login-submit']//span[@innertext='Log in']
+			</item>
+			<basepath>
+				/dom[@domain='id.atlassian.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="55777400-dd61-4fe6-abf9-acf646ea3903"
+		isrooted="True"
+		name="AuthAtlassianComLoginstateEqhKFo2SBWX"
+		refimgid="bb2c3cce-ff73-4181-a93e-fa33f030b535"
+		refpath="/dom[@domain='auth.atlassian.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='auth.atlassian.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="3687dc24-fbc3-4f18-9a2b-0e6c629243e7"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c7e0c099-ea17-475f-ae18-203b33127d29"
+			name="Firefox1RunningWindow"
+			refimgid="26b22e98-3a9e-4179-9c2f-00cf33aa6225"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[13]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[13]
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="10d2e1e9-f0de-4ccd-b1a0-10a55cc40ef6"
+			name="Element307"
+			refimgid="38101ddf-75e2-41f0-8165-5326a95ca093"
+			refpath="/menubar[@processname='explorer']/container[@controlid='303']/element[@controlid='307']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/?/?/element[@controlid='307']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c418af72-51c0-4c95-bcc8-e3c1d615d731"
+		isrooted="True"
+		name="Explorer1"
+		refimgid="95def4e1-9bf9-4e1c-b920-862044b83cae"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADSSURBVDhPpdK/DsFQGAXw8wg2L9KI9AHEZmhi
+MBgMBoN4AINNIhaCiXbwFCYjg5T4UyGqxCN4gEOjt7lDew33JL/lO9/XuxTaeThgIhvLwEEmWktP
+YINp7lNs/37kPAKT+E6Wb7dF3jvpXkN+N9tMdW2Sl4bS97k6dYBejTrAU5U6wGOFQm+xoTV/KoU7
+8g14KFMozAKaE18p3JFvwL1FIekgiXwD7koUzPEtJs9VHegWKeQHXkyeqzpwbVDI9d2YPFd10Q/9
+i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d04e7136-b430-4625-a880-270ec4c655a5"
+		isrooted="True"
+		name="TaskSwitching"
+		refimgid="1978b293-96f9-4289-9198-e2d9525628ed"
+		refpath="/form[@title='Task Switching']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Task Switching']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADSSURBVDhPpdK/DsFQGAXw8wg2L9KI9AHEZmhi
+MBgMBoN4AINNIhaCiXbwFCYjg5T4UyGqxCN4gEOjt7lDew33JL/lO9/XuxTaeThgIhvLwEEmWktP
+YINp7lNs/37kPAKT+E6Wb7dF3jvpXkN+N9tMdW2Sl4bS97k6dYBejTrAU5U6wGOFQm+xoTV/KoU7
+8g14KFMozAKaE18p3JFvwL1FIekgiXwD7koUzPEtJs9VHegWKeQHXkyeqzpwbVDI9d2YPFd10Q/9
+i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3f14f186-9789-44fd-98ee-420a6b6e3b8c"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CreateCard"
+	namespace="TrelloTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<keysequenceitem
+		KeySequence="Test Ranorex Card"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="19adbb47-aa12-4c8d-8da3-9855d1e812ac">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="216bb8b2-5913-4b36-803c-4b22c4da2e45"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, textareatag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="True"
+				index="1"
+				prefcap="textareatag"
+				rect="24,240,240,57"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						list-card-composer-textarea js-card-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						js-card-title list-card-composer-textarea
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						textarea
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="cols"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Enter a title for this card…
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="rows"
+					type="System.String">
+						2
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="dir"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='trello.com']//div[#'content']/div//textarea[@placeholder='Enter a title for this card…']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="12e7c3e5-4ef7-4828-b811-b841b4cc6a20">
+				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
+h/4F/wChGijRP+QTD/wL/wBCNFAH/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c0a3d78e-1f77-49a3-807d-36ec06e967a3"
+		sx="84"
+		sy="493"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3083cca0-16d7-4a64-a477-56490cf91dd6"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="24,466,120,48"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						nch-button nch-button--primary confirm mod-compact js-add-card
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						confirm js-add-card mod-compact nch-button nch-button--primary
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Add card
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Add card
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='trello.com']//div[#'content']/div//input[@type='submit']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="adb4acf3-7697-4498-9f8a-9bc799d63d54">
+				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
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU4dKbTh0oAWiiigQU09adTT1oGJRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFOHSm04dKAFooooEFNPWnU09aBiUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABTh0ptOHSgBaKKKBBTT1p1NPWgYlFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU4dKbTh0oAWiiigQUmM05RlgD61OsQYkLGTj3qXKxrC
+lzR5rpLzK2BRgVb+zn/nkfzH+NH2c/8API/mP8aXtEP2S/nX9fIqYFGBVv7Of+eR/Mf40fZz/wA8
+j+Y/xo9og9kv51/XyKmBRgVb+zn/AJ5H8x/jR9nP/PI/mP8AGj2iD2S/nX9fIqYFGBVv7Of+eR/M
+f40fZz/zyP5j/Gj2iD2S/nX9fIqYFGBVv7Of+eR/Mf40fZz/AM8j+Y/xo9og9kv51/XyKmBRgVb+
+zn/nkfzH+NH2c/8API/mP8aPaIPZL+df18ipgUYFW/s5/wCeR/Mf40fZz/zyP5j/ABo9og9kv51/
+XyKmBRgVMyp5bEKQQcc1FVJ3JqU3BrW9xMCjApaKZmJgUYFLRQAmBRgUtFACYFGBS0UAJgUYFLRQ
+AmBRgUtFACYFGBS0UAJgUYFLRQAmBRgUtFACYFGBS0UAJgUYFLRQAmBRgUtFACYFGBS0UAJgUYFL
+RQAmBRgUtFACYFLRRQAUUUUAKn31+tacP+rFZiffX61pxf6sVjU3NX/Afr+jH0UUVmcoUUUUAFFL
+tYKGIOD0OKQAkgAZJ7CgAooIIOCMEUUAFFFFABRRShWbOATjk4HSgBKKKKAKVz1l+o/pVWrVz1l+
+o/kKq1vT2OurtD0/zCinwRiWUIz7M96WeF4JNrj6H1qzIjop8MLzSBUH1PpSzxiKUor78d6AI6KK
+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
+ApaKKACiiigApKKKACkoopAFFFFAH//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="cfb1f63c-45ef-4194-b5d5-b41a99eede67"
+	name="TrelloTestRepository"
+	relativepath="TrelloTestRepository.rxrep">
+		<codegen
+		classname="TrelloTestRepository"
+		namespace="TrelloTest">
+		</codegen>
+		<rootfolder
+		id="ba6f2009-d8d0-4c76-a02c-bdf2a68639ab"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CreateCard.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

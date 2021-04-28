@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f26ebc42-c131-4dc2-9747-35d1d090a2cf"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="TrelloTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="47c6f31a-59b1-4cda-8771-dae1885f63e7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0d69f230-0088-4d27-bde7-648c3b1ce0bc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='firefox']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="cfb1f63c-45ef-4194-b5d5-b41a99eede67"
+	name="TrelloTestRepository"
+	relativepath="TrelloTestRepository.rxrep">
+		<codegen
+		classname="TrelloTestRepository"
+		namespace="TrelloTest">
+		</codegen>
+		<rootfolder
+		id="ba6f2009-d8d0-4c76-a02c-bdf2a68639ab"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

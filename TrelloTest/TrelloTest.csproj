@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{9CB132B2-53B5-4B3E-A699-F5551830B35A}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TrelloTest</RootNamespace>
+    <AssemblyName>TrelloTest</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>25d7cb93-00ae-4d17-8604-20ded442c494</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CreateCard.cs">
+      <BoundTo>baa566a5-d7f1-4a8d-997b-bc897335a62e</BoundTo>
+      <DependentUpon>CreateCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>968c5e7b-487b-41fa-9a29-8c35d69ad549</id>
+    </Compile>
+    <Compile Include="CreateCard.UserCode.cs">
+      <BoundTo>baa566a5-d7f1-4a8d-997b-bc897335a62e</BoundTo>
+      <DependentUpon>CreateCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c1bf1cd2-18c8-4c6d-a894-14fe1f72d557</id>
+    </Compile>
+    <Compile Include="MoveCardToDoneAndArchive.cs">
+      <BoundTo>ac3d78e9-d00c-4629-b20e-714164acc9cd</BoundTo>
+      <DependentUpon>MoveCardToDoneAndArchive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df4c0b70-195b-433a-bf5c-57b3b93c7358</id>
+    </Compile>
+    <Compile Include="MoveCardToDoneAndArchive.UserCode.cs">
+      <BoundTo>ac3d78e9-d00c-4629-b20e-714164acc9cd</BoundTo>
+      <DependentUpon>MoveCardToDoneAndArchive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2a81eba0-bfe4-4ffd-805d-296d0dfe94e1</id>
+    </Compile>
+    <Compile Include="RemoveBoard.cs">
+      <BoundTo>be42b0d4-9882-4135-adb3-3cf17f4bc40e</BoundTo>
+      <DependentUpon>RemoveBoard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0ac43541-e883-4c7b-ae1e-1abf1089408f</id>
+    </Compile>
+    <Compile Include="RemoveBoard.UserCode.cs">
+      <BoundTo>be42b0d4-9882-4135-adb3-3cf17f4bc40e</BoundTo>
+      <DependentUpon>RemoveBoard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1fc112b-4d69-4265-a05b-802413347f1b</id>
+    </Compile>
+    <Compile Include="AddBoard.cs">
+      <BoundTo>3ea80f1a-df1a-4825-b492-8659d13b8afb</BoundTo>
+      <DependentUpon>AddBoard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9d637af1-8be2-4223-9104-ba3d23eaa015</id>
+    </Compile>
+    <Compile Include="AddBoard.UserCode.cs">
+      <BoundTo>3ea80f1a-df1a-4825-b492-8659d13b8afb</BoundTo>
+      <DependentUpon>AddBoard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e32c6d1f-7a2b-4f6e-81fc-ab23280d4abc</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>7f5aa62f-76a7-46d4-bcc2-29c0d05e639e</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>6adce1cb-e7d9-450f-810b-43e8f708cdba</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>83db8cf8-6167-4446-8a8f-52bc179bb727</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>6adce1cb-e7d9-450f-810b-43e8f708cdba</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0eed88ee-8a0f-414c-bb51-81db5f18f474</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>a414a98e-f8f8-4905-8332-0a66401cb13e</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7c735232-72ce-4467-97cd-95fa25251e4e</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>a414a98e-f8f8-4905-8332-0a66401cb13e</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>db69435c-cbe5-4bc5-bf2f-88b39b3cd83d</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>8c9e5c24-877d-495e-b58e-3a29406ba017</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7372b54e-31ce-4047-a6dd-409fdd1364ae</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>8c9e5c24-877d-495e-b58e-3a29406ba017</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>84b488b9-1e14-452a-bc52-c02be412d36f</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>c202d561-590d-4fef-bbee-f3f46570d8f6</id>
+    </Compile>
+    <Compile Include="Logout.cs">
+      <BoundTo>64bc76d0-8be2-4318-94ec-3817c37dc45d</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d5240bc-7202-4e91-b2af-dc6046d36207</id>
+    </Compile>
+    <Compile Include="Logout.UserCode.cs">
+      <BoundTo>64bc76d0-8be2-4318-94ec-3817c37dc45d</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d364e483-c3aa-4b62-a040-96b4421683ad</id>
+    </Compile>
+    <Compile Include="TrelloTestRepository.cs">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <DependentUpon>TrelloTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>2ac3722c-14ce-4d15-b111-f88a24b33ae4</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CreateCard.rxrec">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <id>baa566a5-d7f1-4a8d-997b-bc897335a62e</id>
+      <recordtableid>3f14f186-9789-44fd-98ee-420a6b6e3b8c</recordtableid>
+    </None>
+    <None Include="MoveCardToDoneAndArchive.rxrec">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <id>ac3d78e9-d00c-4629-b20e-714164acc9cd</id>
+      <recordtableid>bb4ae740-ad43-4017-a9ac-092cbbef89dc</recordtableid>
+    </None>
+    <None Include="RemoveBoard.rxrec">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <id>be42b0d4-9882-4135-adb3-3cf17f4bc40e</id>
+      <recordtableid>1501d1c4-0163-4432-8abf-5614449a2de7</recordtableid>
+    </None>
+    <None Include="AddBoard.rxrec">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <id>3ea80f1a-df1a-4825-b492-8659d13b8afb</id>
+      <recordtableid>34435cd5-3e25-4205-9ae0-563bd0e5dae4</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>fa8dbd22-c5d7-43ce-8a52-3b6f8bd9eeee</id>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <id>6adce1cb-e7d9-450f-810b-43e8f708cdba</id>
+      <recordtableid>f26ebc42-c131-4dc2-9747-35d1d090a2cf</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <id>a414a98e-f8f8-4905-8332-0a66401cb13e</id>
+      <recordtableid>1f2b5175-d942-4d22-bc53-8a6e777c006b</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <id>8c9e5c24-877d-495e-b58e-3a29406ba017</id>
+      <recordtableid>dfedad15-2a1e-4d45-9059-1197662c32ed</recordtableid>
+    </None>
+    <None Include="Logout.rxrec">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <id>64bc76d0-8be2-4318-94ec-3817c37dc45d</id>
+      <recordtableid>868af62c-e7f3-4f4b-8e44-8fbc9825a195</recordtableid>
+    </None>
+    <None Include="TrelloTestRepository.rximg">
+      <BoundTo>25d7cb93-00ae-4d17-8604-20ded442c494</BoundTo>
+      <DependentUpon>TrelloTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>455dd3e4-3177-4cbf-acef-c5b545274b5e</id>
+    </None>
+    <None Include="TrelloTestRepository.rxrep">
+      <id>25d7cb93-00ae-4d17-8604-20ded442c494</id>
+      <repoid>cfb1f63c-45ef-4194-b5d5-b41a99eede67</repoid>
+      <reporootid>ba6f2009-d8d0-4c76-a02c-bdf2a68639ab</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TrelloTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>348b3151-5840-4e4c-a8e0-a74f3f3b269f</id>
+    </Content>
+    <Content Include="TrelloTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>fb8ecb37-b66c-437d-a854-17d966ba7ee5</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
