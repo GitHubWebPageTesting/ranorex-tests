@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="cfb1f63c-45ef-4194-b5d5-b41a99eede67"
 name="TrelloTestRepository">
 	<codegen
@@ -160,6 +159,17 @@ name="TrelloTestRepository">
 				robustPath=""
 				searchtimeout="30000ms">
 					/dom[@domain='trello.com']//div[#'content']/div//a[@class='list-card js-member-droppable ui-droppable']/div[3]/span[@innertext='Test Ranorex Card']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="5034790d-64fd-4c02-ab44-d184d9d4da1d"
+				name="BoardTileModAdd"
+				refimgid="95f35383-b79e-4f5c-9292-caef544607fe"
+				refpath="/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[3]/ul/li/div"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[3]/ul/?/?/div
 				</item>
 				<basepath>
 					/dom[@domain='trello.com']//div[#'content']/div

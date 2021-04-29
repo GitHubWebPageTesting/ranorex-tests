@@ -470,6 +470,7 @@ namespace TrelloTest
             RepoItemInfo _submitInfo;
             RepoItemInfo _iconediticonsmjscardmenulistcardInfo;
             RepoItemInfo _testranorexcardInfo;
+            RepoItemInfo _boardtilemodaddInfo;
 
             /// <summary>
             /// Creates a new BoardWrapperIsShowMenu  folder.
@@ -489,6 +490,7 @@ namespace TrelloTest
                 _submitInfo = new RepoItemInfo(this, "Submit", "div/div[3]/div[@id='board']/div[1]/div/div[2]//input[@value='Add card']", "", 30000, null, "3083cca0-16d7-4a64-a477-56490cf91dd6");
                 _iconediticonsmjscardmenulistcardInfo = new RepoItemInfo(this, "IconEditIconSmJsCardMenuListCard", "div[3]//a/span", "", 30000, null, "e793bbaa-3688-4dff-9eea-a6a25101585c");
                 _testranorexcardInfo = new RepoItemInfo(this, "TestRanorexCard", ".//a[@class='list-card js-member-droppable ui-droppable']/div[3]/span[@innertext='Test Ranorex Card']", "", 30000, null, "2f13cb7d-80d8-40a3-8880-e520420f29c1");
+                _boardtilemodaddInfo = new RepoItemInfo(this, "BoardTileModAdd", "div[2]/div/div/div/div/div[2]/div/div/div[2]/div[3]/ul/?/?/div", "", 30000, null, "5034790d-64fd-4c02-ab44-d184d9d4da1d");
             }
 
             /// <summary>
@@ -800,6 +802,30 @@ namespace TrelloTest
                 get
                 {
                     return _testranorexcardInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BoardTileModAdd item.
+            /// </summary>
+            [RepositoryItem("5034790d-64fd-4c02-ab44-d184d9d4da1d")]
+            public virtual Ranorex.DivTag BoardTileModAdd
+            {
+                get
+                {
+                    return _boardtilemodaddInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BoardTileModAdd item info.
+            /// </summary>
+            [RepositoryItemInfo("5034790d-64fd-4c02-ab44-d184d9d4da1d")]
+            public virtual RepoItemInfo BoardTileModAddInfo
+            {
+                get
+                {
+                    return _boardtilemodaddInfo;
                 }
             }
         }

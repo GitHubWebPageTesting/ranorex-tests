@@ -27,7 +27,7 @@ mode="Global">
 	<recorditems>
 		<mousewheelitem
 		delta="-480"
-		duration="300ms"
+		duration="100ms"
 		enabled="True"
 		optional="False"
 		orientation="Vertical">
@@ -36,6 +36,100 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</mousewheelitem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3559ea42-fed5-4980-bc5c-a7e48e385971">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2b5f80ed-856e-4bb0-b138-a2db67d0dd55"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1046,737,109,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Create new board
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='trello.com']//div[#'content']/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[3]/ul//span[@innertext='Create new board']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="6b888558-685b-4f16-8c6c-55e365841c0a">
+				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
+KACiiigAooooAKKKKACiiigAooooA//Z
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
 		<mouseitem
 		action="Click"
 		button="Left"

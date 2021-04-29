@@ -81,29 +81,33 @@ namespace TrelloTest
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -480 units.", new RecordItemIndex(0));
             Mouse.ScrollWheel(-480);
-            Delay.Milliseconds(300);
+            Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BoardWrapperIsShowMenu.CreateNewBoard' at 114;12.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.CreateNewBoardInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.BoardWrapperIsShowMenu.CreateNewBoard'.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.CreateNewBoardInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.ApplicationUnderTest.BoardWrapperIsShowMenu.CreateNewBoardInfo);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BoardWrapperIsShowMenu.CreateNewBoard' at 114;12.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.CreateNewBoardInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.BoardWrapperIsShowMenu.CreateNewBoard.Click("114;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LayerManagerOverlay.Text' at 64;20.", repo.ApplicationUnderTest.LayerManagerOverlay.TextInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LayerManagerOverlay.Text' at 64;20.", repo.ApplicationUnderTest.LayerManagerOverlay.TextInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.LayerManagerOverlay.Text.Click("64;20");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'TestRanorexBoard' with focus on 'ApplicationUnderTest.LayerManagerOverlay.Text'.", repo.ApplicationUnderTest.LayerManagerOverlay.TextInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'TestRanorexBoard' with focus on 'ApplicationUnderTest.LayerManagerOverlay.Text'.", repo.ApplicationUnderTest.LayerManagerOverlay.TextInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.LayerManagerOverlay.Text.PressKeys("TestRanorexBoard");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LayerManagerOverlay.Blue' at Center.", repo.ApplicationUnderTest.LayerManagerOverlay.BlueInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LayerManagerOverlay.Blue' at Center.", repo.ApplicationUnderTest.LayerManagerOverlay.BlueInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.LayerManagerOverlay.Blue.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LayerManagerOverlay.CreateBoard' at Center.", repo.ApplicationUnderTest.LayerManagerOverlay.CreateBoardInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LayerManagerOverlay.CreateBoard' at Center.", repo.ApplicationUnderTest.LayerManagerOverlay.CreateBoardInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.LayerManagerOverlay.CreateBoard.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='TestRanorexBoard') on item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexBoard'.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexBoardInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='TestRanorexBoard') on item 'ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexBoard'.", repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexBoardInfo, new RecordItemIndex(7));
             Validate.AttributeEqual(repo.ApplicationUnderTest.BoardWrapperIsShowMenu.TestRanorexBoardInfo, "InnerText", "TestRanorexBoard");
             Delay.Milliseconds(100);
             

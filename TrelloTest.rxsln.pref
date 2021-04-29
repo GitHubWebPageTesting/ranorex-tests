@@ -10,6 +10,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution TrelloTest[TrelloTest[]]]&#xD;&#xA;Solution TrelloTest\TrelloTest\TrelloTest.rxtst&#xD;&#xA;Solution TrelloTest\TrelloTest\ArchiveCard.rxrec" />
+  <ProjectBrowserState value="[Solution TrelloTest[TrelloTest[Reports[]]]]&#xD;&#xA;Solution TrelloTest&#xD;&#xA;Solution TrelloTest" />
   <StartupProject value="{9CB132B2-53B5-4B3E-A699-F5551830B35A}" />
 </Properties>
