@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{9CB132B2-53B5-4B3E-A699-F5551830B35A}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution TrelloTest[TrelloTest[]]]&#xD;&#xA;Solution TrelloTest\TrelloTest\TrelloTest.rxtst&#xD;&#xA;Solution TrelloTest\TrelloTest\ArchiveCard.rxrec" />
+  <StartupProject value="{9CB132B2-53B5-4B3E-A699-F5551830B35A}" />
+</Properties>

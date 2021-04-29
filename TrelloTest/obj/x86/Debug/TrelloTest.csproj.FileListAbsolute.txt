@@ -1,0 +1,10 @@
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\bin\Debug\TrelloTest.rxtmg
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\bin\Debug\TrelloTest.rxtst
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\bin\Debug\TrelloTest.exe.config
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\bin\Debug\TrelloTest.xml
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\bin\Debug\TrelloTest.exe
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\bin\Debug\TrelloTest.pdb
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\obj\x86\Debug\TrelloTest.csprojResolveAssemblyReference.cache
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\obj\x86\Debug\TrelloTest.exe
+C:\Users\jasmin.huremovic\Downloads\ranorex-tests\TrelloTest\obj\x86\Debug\TrelloTest.pdb

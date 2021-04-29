@@ -1,0 +1,974 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TrelloTest</name>
+    </assembly>
+    <members>
+        <member name="T:TrelloTest.CreateCard">
+             <summary>
+            The CreateCard recording.
+             </summary>
+        </member>
+        <member name="F:TrelloTest.CreateCard.repo">
+            <summary>
+            Holds an instance of the TrelloTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.CreateCard.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.CreateCard.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrelloTest.CreateCard.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.CreateCard.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrelloTest.CreateCard.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.CreateCard.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.MoveCardToDoneAndArchive">
+             <summary>
+            The MoveCardToDoneAndArchive recording.
+             </summary>
+        </member>
+        <member name="F:TrelloTest.MoveCardToDoneAndArchive.repo">
+            <summary>
+            Holds an instance of the TrelloTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.MoveCardToDoneAndArchive.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.MoveCardToDoneAndArchive.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrelloTest.MoveCardToDoneAndArchive.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.MoveCardToDoneAndArchive.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrelloTest.MoveCardToDoneAndArchive.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.MoveCardToDoneAndArchive.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.RemoveBoard">
+             <summary>
+            The RemoveBoard recording.
+             </summary>
+        </member>
+        <member name="F:TrelloTest.RemoveBoard.repo">
+            <summary>
+            Holds an instance of the TrelloTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.RemoveBoard.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.RemoveBoard.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrelloTest.RemoveBoard.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.RemoveBoard.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrelloTest.RemoveBoard.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.RemoveBoard.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.AddBoard">
+             <summary>
+            The AddBoard recording.
+             </summary>
+        </member>
+        <member name="F:TrelloTest.AddBoard.repo">
+            <summary>
+            Holds an instance of the TrelloTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.AddBoard.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.AddBoard.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrelloTest.AddBoard.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.AddBoard.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrelloTest.AddBoard.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.AddBoard.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TrelloTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the TrelloTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrelloTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrelloTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:TrelloTest.Login.repo">
+            <summary>
+            Holds an instance of the TrelloTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrelloTest.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrelloTest.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TrelloTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the TrelloTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrelloTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrelloTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:TrelloTest.Logout.repo">
+            <summary>
+            Holds an instance of the TrelloTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrelloTest.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrelloTest.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepository">
+            <summary>
+            The class representing the TrelloTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TrelloTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.Trello">
+            <summary>
+            The Trello folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.LogInToContinueLogInWithAtlassi">
+            <summary>
+            The LogInToContinueLogInWithAtlassi folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.AuthAtlassianComLoginstateEqhKFo2SBWX">
+            <summary>
+            The AuthAtlassianComLoginstateEqhKFo2SBWX folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepository.TaskSwitching">
+            <summary>
+            The TaskSwitching folder.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.AddACard">
+            <summary>
+            The AddACard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.AddACardInfo">
+            <summary>
+            The AddACard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.Archive">
+            <summary>
+            The Archive item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.ArchiveInfo">
+            <summary>
+            The Archive item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsTrelloComCRCU44b7j3TestRan">
+            <summary>
+            The HttpsTrelloComCRCU44b7j3TestRan item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsTrelloComCRCU44b7j3TestRanInfo">
+            <summary>
+            The HttpsTrelloComCRCU44b7j3TestRan item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.Board">
+            <summary>
+            The Board item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.BoardInfo">
+            <summary>
+            The Board item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.AddACard1">
+            <summary>
+            The AddACard1 item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.AddACard1Info">
+            <summary>
+            The AddACard1 item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.WindowOverlay">
+            <summary>
+            The WindowOverlay item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.WindowOverlayInfo">
+            <summary>
+            The WindowOverlay item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.Archive1">
+            <summary>
+            The Archive1 item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.Archive1Info">
+            <summary>
+            The Archive1 item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.BoardWrapperIsShowMenu">
+            <summary>
+            The BoardWrapperIsShowMenu folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ApplicationUnderTestAppFolder.LayerManagerOverlay">
+            <summary>
+            The LayerManagerOverlay folder.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder">
+            <summary>
+            The BoardWrapperIsShowMenuFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BoardWrapperIsShowMenu  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.TestRanorexBoard">
+            <summary>
+            The TestRanorexBoard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.TestRanorexBoardInfo">
+            <summary>
+            The TestRanorexBoard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.ShowMenu">
+            <summary>
+            The ShowMenu item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.ShowMenuInfo">
+            <summary>
+            The ShowMenu item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.CreateNewBoard">
+            <summary>
+            The CreateNewBoard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.CreateNewBoardInfo">
+            <summary>
+            The CreateNewBoard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.BoardMenuContentJsBoardMenuContent">
+            <summary>
+            The BoardMenuContentJsBoardMenuContent item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.BoardMenuContentJsBoardMenuContentInfo">
+            <summary>
+            The BoardMenuContentJsBoardMenuContent item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.ATagMore">
+            <summary>
+            The ATagMore item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.ATagMoreInfo">
+            <summary>
+            The ATagMore item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.ATagCloseBoard">
+            <summary>
+            The ATagCloseBoard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.ATagCloseBoardInfo">
+            <summary>
+            The ATagCloseBoard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.PermanentlyDeleteBoard">
+            <summary>
+            The PermanentlyDeleteBoard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.PermanentlyDeleteBoardInfo">
+            <summary>
+            The PermanentlyDeleteBoard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.BoardNotFound">
+            <summary>
+            The BoardNotFound item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.BoardNotFoundInfo">
+            <summary>
+            The BoardNotFound item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.EnterATitleForThisCard">
+            <summary>
+            The EnterATitleForThisCard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.EnterATitleForThisCardInfo">
+            <summary>
+            The EnterATitleForThisCard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.IconEditIconSmJsCardMenuListCard">
+            <summary>
+            The IconEditIconSmJsCardMenuListCard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.IconEditIconSmJsCardMenuListCardInfo">
+            <summary>
+            The IconEditIconSmJsCardMenuListCard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.TestRanorexCard">
+            <summary>
+            The TestRanorexCard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.TestRanorexCardInfo">
+            <summary>
+            The TestRanorexCard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.TestRanorexCard1">
+            <summary>
+            The TestRanorexCard1 item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.TestRanorexCard1Info">
+            <summary>
+            The TestRanorexCard1 item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.TestRanorexCard2">
+            <summary>
+            The TestRanorexCard2 item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.BoardWrapperIsShowMenuFolder.TestRanorexCard2Info">
+            <summary>
+            The TestRanorexCard2 item info.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder">
+            <summary>
+            The LayerManagerOverlayFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LayerManagerOverlay  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.BrownAndGreenMountainUnderWhiteSky">
+            <summary>
+            The BrownAndGreenMountainUnderWhiteSky item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.BrownAndGreenMountainUnderWhiteSkyInfo">
+            <summary>
+            The BrownAndGreenMountainUnderWhiteSky item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.CreateBoard">
+            <summary>
+            The CreateBoard item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.CreateBoardInfo">
+            <summary>
+            The CreateBoard item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.Blue">
+            <summary>
+            The Blue item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LayerManagerOverlayFolder.BlueInfo">
+            <summary>
+            The Blue item info.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder">
+            <summary>
+            The TrelloAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Trello  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.LogIn">
+            <summary>
+            The LogIn item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.LogInInfo">
+            <summary>
+            The LogIn item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.Login1">
+            <summary>
+            The Login1 item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.Login1Info">
+            <summary>
+            The Login1 item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.TrelloWorkspace">
+            <summary>
+            The TrelloWorkspace item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.TrelloWorkspaceInfo">
+            <summary>
+            The TrelloWorkspace item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.SpanTag24AWINHReYjNBfAYXvcYtXemTcSj">
+            <summary>
+            The SpanTag24AWINHReYjNBfAYXvcYtXemTcSj item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.SpanTag24AWINHReYjNBfAYXvcYtXemTcSjInfo">
+            <summary>
+            The SpanTag24AWINHReYjNBfAYXvcYtXemTcSj item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.LogOut">
+            <summary>
+            The LogOut item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.LogOutInfo">
+            <summary>
+            The LogOut item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.PTagYoureAllLoggedOutSoNowWhat">
+            <summary>
+            The PTagYoureAllLoggedOutSoNowWhat item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.PTagYoureAllLoggedOutSoNowWhatInfo">
+            <summary>
+            The PTagYoureAllLoggedOutSoNowWhat item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.InnerSection">
+            <summary>
+            The InnerSection item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.InnerSectionInfo">
+            <summary>
+            The InnerSection item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.User">
+            <summary>
+            The User item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TrelloAppFolder.UserInfo">
+            <summary>
+            The User item info.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder">
+            <summary>
+            The LogInToContinueLogInWithAtlassiAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogInToContinueLogInWithAtlassi  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.LogOut">
+            <summary>
+            The LogOut item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.LogOutInfo">
+            <summary>
+            The LogOut item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.LogIn">
+            <summary>
+            The LogIn item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.LogInToContinueLogInWithAtlassiAppFolder.LogInInfo">
+            <summary>
+            The LogIn item info.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.AuthAtlassianComLoginstateEqhKFo2SBWXAppFolder">
+            <summary>
+            The AuthAtlassianComLoginstateEqhKFo2SBWXAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.AuthAtlassianComLoginstateEqhKFo2SBWXAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AuthAtlassianComLoginstateEqhKFo2SBWX  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.AuthAtlassianComLoginstateEqhKFo2SBWXAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.AuthAtlassianComLoginstateEqhKFo2SBWXAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ExplorerAppFolder.Firefox1RunningWindow">
+            <summary>
+            The Firefox1RunningWindow item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ExplorerAppFolder.Firefox1RunningWindowInfo">
+            <summary>
+            The Firefox1RunningWindow item info.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ExplorerAppFolder.Element307">
+            <summary>
+            The Element307 item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.ExplorerAppFolder.Element307Info">
+            <summary>
+            The Element307 item info.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TrelloTest.TrelloTestRepositoryFolders.TaskSwitchingAppFolder">
+            <summary>
+            The TaskSwitchingAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrelloTest.TrelloTestRepositoryFolders.TaskSwitchingAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TaskSwitching  folder.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TaskSwitchingAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrelloTest.TrelloTestRepositoryFolders.TaskSwitchingAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
