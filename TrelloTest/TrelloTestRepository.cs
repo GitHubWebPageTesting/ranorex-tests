@@ -166,12 +166,13 @@ namespace TrelloTest
             TrelloTestRepositoryFolders.LayerManagerOverlayFolder _layermanageroverlay;
             RepoItemInfo _submitInfo;
             RepoItemInfo _addacardInfo;
-            RepoItemInfo _archiveInfo;
             RepoItemInfo _httpstrellocomcrcu44b7j3testranInfo;
             RepoItemInfo _boardInfo;
             RepoItemInfo _addacard1Info;
             RepoItemInfo _windowoverlayInfo;
-            RepoItemInfo _archive1Info;
+            RepoItemInfo _archiveInfo;
+            RepoItemInfo _deleteInfo;
+            RepoItemInfo _httpstrellocomcki0ke0qj2testranInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -183,12 +184,13 @@ namespace TrelloTest
                 _layermanageroverlay = new TrelloTestRepositoryFolders.LayerManagerOverlayFolder(this);
                 _submitInfo = new RepoItemInfo(this, "Submit", ".//div[#'chrome-container']/div[4]/div/div[2]//input[@type='submit']", "", 30000, null, "032e7a25-d88c-4141-a2f4-fd29e30e5562");
                 _addacardInfo = new RepoItemInfo(this, "AddACard", ".//div[#'board']/div[1]//a[@href>'https://trello.com/b/tN1q']/span[@innertext='Add a card']", "", 30000, null, "23f54f8a-d128-4011-89c3-fac71a779094");
-                _archiveInfo = new RepoItemInfo(this, "Archive", ".//div[#'chrome-container']/div[7]/div/div[2]/a[8]/span[@innertext='Archive']", "", 30000, null, "abf848d0-3a47-4517-91de-1ae01af06a10");
                 _httpstrellocomcrcu44b7j3testranInfo = new RepoItemInfo(this, "HttpsTrelloComCRCU44b7j3TestRan", ".//div[#'chrome-container']/div[3]/div/div/a[@href>'https://trello.com/c/rCU4']", "", 30000, null, "e46b284f-76bc-42fc-8050-efd97c040562");
                 _boardInfo = new RepoItemInfo(this, "Board", ".//div[#'board']", "", 30000, null, "7f59948d-ccde-4fc9-b1e6-1585d4df15f4");
                 _addacard1Info = new RepoItemInfo(this, "AddACard1", ".//div[#'board']/div[1]/div/div[3]/a[@href>'https://trello.com/b/r8Gy']/span[@innertext='Add a card']", "", 30000, null, "1e03d17a-68ba-494d-b5ba-3425fc34bf64");
                 _windowoverlayInfo = new RepoItemInfo(this, "WindowOverlay", ".//div[#'chrome-container']/div[3]", "", 30000, null, "226e158e-57df-4805-8817-cd477a75ae23");
-                _archive1Info = new RepoItemInfo(this, "Archive1", ".//div[#'chrome-container']/div[3]/div/div/div/div[5]//a[@title='Archive']/span[@title='Archive']", "", 30000, null, "12cda572-9512-456e-9912-5c4f0200d428");
+                _archiveInfo = new RepoItemInfo(this, "Archive", ".//div[#'chrome-container']/div[3]/div/div/div/div[5]//a[@title='Archive']/span[@title='Archive']", "", 30000, null, "12cda572-9512-456e-9912-5c4f0200d428");
+                _deleteInfo = new RepoItemInfo(this, "Delete", ".//div[#'chrome-container']/div[3]/div/div/div/div[5]//a[@title='Delete']/span[@innertext='Delete']", "", 30000, null, "4e239241-3f79-4fcd-a1a0-7458030504a2");
+                _httpstrellocomcki0ke0qj2testranInfo = new RepoItemInfo(this, "HttpsTrelloComCKI0kE0Qj2TestRan", ".//div[#'chrome-container']/div[3]/div/div/a[@href>'https://trello.com/c/kI0k']", "", 30000, null, "a25f3064-3488-4cc8-9b06-c0f626594c78");
             }
 
             /// <summary>
@@ -260,30 +262,6 @@ namespace TrelloTest
                 get
                 {
                     return _addacardInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Archive item.
-            /// </summary>
-            [RepositoryItem("abf848d0-3a47-4517-91de-1ae01af06a10")]
-            public virtual Ranorex.SpanTag Archive
-            {
-                get
-                {
-                    return _archiveInfo.CreateAdapter<Ranorex.SpanTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Archive item info.
-            /// </summary>
-            [RepositoryItemInfo("abf848d0-3a47-4517-91de-1ae01af06a10")]
-            public virtual RepoItemInfo ArchiveInfo
-            {
-                get
-                {
-                    return _archiveInfo;
                 }
             }
 
@@ -384,26 +362,74 @@ namespace TrelloTest
             }
 
             /// <summary>
-            /// The Archive1 item.
+            /// The Archive item.
             /// </summary>
             [RepositoryItem("12cda572-9512-456e-9912-5c4f0200d428")]
-            public virtual Ranorex.SpanTag Archive1
+            public virtual Ranorex.SpanTag Archive
             {
                 get
                 {
-                    return _archive1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _archiveInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Archive1 item info.
+            /// The Archive item info.
             /// </summary>
             [RepositoryItemInfo("12cda572-9512-456e-9912-5c4f0200d428")]
-            public virtual RepoItemInfo Archive1Info
+            public virtual RepoItemInfo ArchiveInfo
             {
                 get
                 {
-                    return _archive1Info;
+                    return _archiveInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Delete item.
+            /// </summary>
+            [RepositoryItem("4e239241-3f79-4fcd-a1a0-7458030504a2")]
+            public virtual Ranorex.SpanTag Delete
+            {
+                get
+                {
+                    return _deleteInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Delete item info.
+            /// </summary>
+            [RepositoryItemInfo("4e239241-3f79-4fcd-a1a0-7458030504a2")]
+            public virtual RepoItemInfo DeleteInfo
+            {
+                get
+                {
+                    return _deleteInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsTrelloComCKI0kE0Qj2TestRan item.
+            /// </summary>
+            [RepositoryItem("a25f3064-3488-4cc8-9b06-c0f626594c78")]
+            public virtual Ranorex.ATag HttpsTrelloComCKI0kE0Qj2TestRan
+            {
+                get
+                {
+                    return _httpstrellocomcki0ke0qj2testranInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsTrelloComCKI0kE0Qj2TestRan item info.
+            /// </summary>
+            [RepositoryItemInfo("a25f3064-3488-4cc8-9b06-c0f626594c78")]
+            public virtual RepoItemInfo HttpsTrelloComCKI0kE0Qj2TestRanInfo
+            {
+                get
+                {
+                    return _httpstrellocomcki0ke0qj2testranInfo;
                 }
             }
 
@@ -444,8 +470,6 @@ namespace TrelloTest
             RepoItemInfo _submitInfo;
             RepoItemInfo _iconediticonsmjscardmenulistcardInfo;
             RepoItemInfo _testranorexcardInfo;
-            RepoItemInfo _testranorexcard1Info;
-            RepoItemInfo _testranorexcard2Info;
 
             /// <summary>
             /// Creates a new BoardWrapperIsShowMenu  folder.
@@ -464,9 +488,7 @@ namespace TrelloTest
                 _enteratitleforthiscardInfo = new RepoItemInfo(this, "EnterATitleForThisCard", ".//textarea[@placeholder='Enter a title for this card…']", "", 30000, null, "216bb8b2-5913-4b36-803c-4b22c4da2e45");
                 _submitInfo = new RepoItemInfo(this, "Submit", "div/div[3]/div[@id='board']/div[1]/div/div[2]//input[@value='Add card']", "", 30000, null, "3083cca0-16d7-4a64-a477-56490cf91dd6");
                 _iconediticonsmjscardmenulistcardInfo = new RepoItemInfo(this, "IconEditIconSmJsCardMenuListCard", "div[3]//a/span", "", 30000, null, "e793bbaa-3688-4dff-9eea-a6a25101585c");
-                _testranorexcardInfo = new RepoItemInfo(this, "TestRanorexCard", ".//a[@href>'https://trello.com/c/aRie']/div[3]/span[@innertext='Test Ranorex Card']", "", 30000, null, "336b4595-16f6-4a40-bdfc-6bd80a567f29");
-                _testranorexcard1Info = new RepoItemInfo(this, "TestRanorexCard1", "div[3]//a/div[3]/span[@innertext='Test Ranorex Card']", "", 30000, null, "a85dadd0-704e-40f8-8d97-af7e76deca8c");
-                _testranorexcard2Info = new RepoItemInfo(this, "TestRanorexCard2", "div[3]//a/div[3]/span[@innertext='Test Ranorex Card']", "", 30000, null, "6879ea3b-a3a1-497a-a995-2dcb15737012");
+                _testranorexcardInfo = new RepoItemInfo(this, "TestRanorexCard", ".//a[@class='list-card js-member-droppable ui-droppable']/div[3]/span[@innertext='Test Ranorex Card']", "", 30000, null, "2f13cb7d-80d8-40a3-8880-e520420f29c1");
             }
 
             /// <summary>
@@ -760,7 +782,7 @@ namespace TrelloTest
             /// <summary>
             /// The TestRanorexCard item.
             /// </summary>
-            [RepositoryItem("336b4595-16f6-4a40-bdfc-6bd80a567f29")]
+            [RepositoryItem("2f13cb7d-80d8-40a3-8880-e520420f29c1")]
             public virtual Ranorex.SpanTag TestRanorexCard
             {
                 get
@@ -772,60 +794,12 @@ namespace TrelloTest
             /// <summary>
             /// The TestRanorexCard item info.
             /// </summary>
-            [RepositoryItemInfo("336b4595-16f6-4a40-bdfc-6bd80a567f29")]
+            [RepositoryItemInfo("2f13cb7d-80d8-40a3-8880-e520420f29c1")]
             public virtual RepoItemInfo TestRanorexCardInfo
             {
                 get
                 {
                     return _testranorexcardInfo;
-                }
-            }
-
-            /// <summary>
-            /// The TestRanorexCard1 item.
-            /// </summary>
-            [RepositoryItem("a85dadd0-704e-40f8-8d97-af7e76deca8c")]
-            public virtual Ranorex.SpanTag TestRanorexCard1
-            {
-                get
-                {
-                    return _testranorexcard1Info.CreateAdapter<Ranorex.SpanTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TestRanorexCard1 item info.
-            /// </summary>
-            [RepositoryItemInfo("a85dadd0-704e-40f8-8d97-af7e76deca8c")]
-            public virtual RepoItemInfo TestRanorexCard1Info
-            {
-                get
-                {
-                    return _testranorexcard1Info;
-                }
-            }
-
-            /// <summary>
-            /// The TestRanorexCard2 item.
-            /// </summary>
-            [RepositoryItem("6879ea3b-a3a1-497a-a995-2dcb15737012")]
-            public virtual Ranorex.SpanTag TestRanorexCard2
-            {
-                get
-                {
-                    return _testranorexcard2Info.CreateAdapter<Ranorex.SpanTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TestRanorexCard2 item info.
-            /// </summary>
-            [RepositoryItemInfo("6879ea3b-a3a1-497a-a995-2dcb15737012")]
-            public virtual RepoItemInfo TestRanorexCard2Info
-            {
-                get
-                {
-                    return _testranorexcard2Info;
                 }
             }
         }
